@@ -105,3 +105,12 @@ footer p:nth-child(1), footer p:nth-child(2){
     font-style: italic;
 }
 
+@media all and (max-width:700px){
+    section{
+        float: none;
+    }
+    aside{
+        float: none;
+    }
+}
+
