@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu flex box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav{
+        background-color: #000;
+      }
+      nav a{
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 14px;
+        color: #fff;
+      }
+      nav a:hover{
+        background-color: #37a29b;
+        border-radius: 10px 10px 0 0;
+      }
+      nav ul{        
+        list-style: none;
+        padding: 20px 10px 0 10px;
+
+        display: flex;   /* 메뉴를 가로로~~ */
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">회사개요</a></li>
+        <li><a href="#">업무내용</a></li>
+        <li><a href="#">접속하기</a></li>
+        <li><a href="#">문의하기</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
