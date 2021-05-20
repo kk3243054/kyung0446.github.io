@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>media query</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper{
+            width: 500px;
+            margin: 0 auto;
+            height: 100vh;
+            background-color: yellow;
+        }
+        @media screen and (max-width:320px){  
+            /* 모바일용을 처리 */
+            #wrapper{
+                width: 30%;
+                height: 50vh;
+                background-color: red;
+            }
+        }
+        @media screen and (max-width:768px){  
+            /* 모바일용을 처리 */
+            #wrapper{
+                width: 30%;
+                height: 50vh;
+                background-color: red;
+            }
+        }
+        @media screen and (max-width:1024px){  
+            /* 테블릿용을 처리 */
+            #wrapper{
+                width: 50%;
+                height: 80vh;
+                background-color: blue;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+      <div id="wrapper"></div>      
+  </body>
+</html>
