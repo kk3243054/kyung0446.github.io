@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #222; 
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+header h1{
+  color: #fff;
+  margin: 0 50px;
+}
+header nav{
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+header nav>a{  
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+header nav>a:nth-child(5){
+  margin-left: auto;
+}
+header img{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+#banner{
+  height: 90vh;
+  background-image: url('http://via.placeholder.com/1920x1280');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/******** section ********/
+section{
+  width: 80%;
+  max-width: 1080px;
+  height: 90vh;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+section .content img{  
+  border: 1px solid #eee;
+}
+section .content .detail{
+  border: 1px solid #eee;
+}
+
+section .content .detail > div:nth-child(1){  
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section .content .detail > div:nth-child(2){
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+section .content .detail > div > p:nth-child(1){
+  width: 70%;
+  font-style: 1.3em;
+  font-weight: bolder;
+}
+section .content .detail > div > p:nth-child(2){
+  font-size: 0.8em;
+  line-height: 2em;
+}
+section .content .detail > div > button{
+  flex: 1 1 0;
+  margin-right: 5px;
+  background-color: #fff;
+  border-color: rgb(116, 157, 218);
+}
+section .content .info{
+  border: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+section .content .info span{
+  color: red;
+}
+section .content .info img{
+  display: inline-block;
+  margin-left: auto;
+}
