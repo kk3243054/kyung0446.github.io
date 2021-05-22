@@ -6,9 +6,11 @@
 }
 header{
   background-color: #222; 
+  width: 100%;
   height: 10vh;
   display: flex;
   align-items: center;
+  position: fixed;
 }
 header h1{
   color: #fff;
