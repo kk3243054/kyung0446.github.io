@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3d tansform</title>
+    <style>
+        .wrapper{
+            perspective: 500px;
+            padding: 100px;
+        }
+      .parent {
+          width: 200px;
+          border: 2px solid tomato;
+          /* transform-style: preserve-3d; */
+      }
+      img {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #222;
+        transition: 1s;
+        /* transform: perspective(500px) rotateY(45deg); */
+        transform: rotateY(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="parent">
+          <img src="rainbow.png" alt="rainbow" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
